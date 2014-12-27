@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property int flips;
+@property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 
 @end
 
